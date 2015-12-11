@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\core\Types.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ApplicationDX11.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\d3dUtil.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\Log.cpp">
+      <Filter>RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\DXGIAdapter.cpp">
+      <Filter>RenderSystem\DXGI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\DXGIOutput.cpp">
+      <Filter>RenderSystem\DXGI</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\InputAssembler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStateDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\InputAssembler</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageStateDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\Rasterizer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\StreamOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageStateDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\StreamOutput</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\OutputMerger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageStateDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\OutputMerger</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageStateDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\States</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderFactoryDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderStageDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Executors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineExecutorDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Executors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexElementDX11.cpp">
+      <Filter>RenderSystem\Pipeline\Executors</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineManagerDX11.cpp">
+      <Filter>RenderSystem\Pipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceProxyDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ByteAddressBufferDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ConstantBufferDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndexBufferDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndirectArgsBufferDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StructuredBufferDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexBufferDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BlendStateConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilStateConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStateConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SamplerStateConfigDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ViewPortDX11.cpp">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Matrix3f.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Matrix4f.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Vector2f.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Vector3f.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Vector4f.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Box3f.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\CompositeShape.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Cone3f.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Frustum3f.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\LineIndices.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Plane3f.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\PointIndices.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Ray3f.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Shape3D.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Sphere3f.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Triangle3f.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\TriangleIndices.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\intersection\Intersector.cpp">
+      <Filter>Intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fBox3f.cpp">
+      <Filter>Intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fSphere3f.cpp">
+      <Filter>Intersection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\utilities\FileLoader.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\utilities\FileSystem.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\utilities\Timer.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ApplicationDX11.h">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.h">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\d3dUtil.h">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\Log.h">
+      <Filter>RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\Singleton.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\TStateArrayMonitor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\TStateMonitor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\TStateArrayMonitor.inl">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\TStateMonitor.inl">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\core\PCH.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\core\Types.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Matrix3f.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Matrix4f.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Vector2f.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Vector3f.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Vector4f.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Quaternion.inl">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Box3f.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\CompositeShape.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Cone3f.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Frustum3f.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\LineIndices.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Plane3f.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\PointIndices.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Ray3f.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Shape3D.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Sphere3f.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Triangle3f.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\TriangleIndices.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\intersection\Intersector.h">
+      <Filter>Intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fBox3f.h">
+      <Filter>Intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fSphere3f.h">
+      <Filter>Intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\DXGIAdapter.h">
+      <Filter>RenderSystem\DXGI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\DXGIOutput.h">
+      <Filter>RenderSystem\DXGI</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\InputAssembler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStateDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\InputAssembler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageStateDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\Rasterizer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\StreamOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageStateDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\StreamOutput</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\OutputMerger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageStateDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\FixedStages\OutputMerger</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageStateDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\States</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderFactoryDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderStageDX11.h">
+      <Filter>RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryDX11.h">
+      <Filter>RenderSystem\Pipeline\Executors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineExecutorDX11.h">
+      <Filter>RenderSystem\Pipeline\Executors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexElementDX11.h">
+      <Filter>RenderSystem\Pipeline\Executors</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineManagerDX11.h">
+      <Filter>RenderSystem\Pipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceDX11.h">
+      <Filter>RenderSystem\ResourceSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceProxyDX11.h">
+      <Filter>RenderSystem\ResourceSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ByteAddressBufferDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ConstantBufferDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndexBufferDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndirectArgsBufferDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StructuredBufferDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexBufferDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainDX11.h">
+      <Filter>RenderSystem\ResourceSystem\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewDX11.h">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewDX11.h">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewDX11.h">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewDX11.h">
+      <Filter>RenderSystem\ResourceSystem\ResourceView</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BlendStateConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilStateConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStateConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SamplerStateConfigDX11.h">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ViewPortDX11.h">
+      <Filter>RenderSystem\ResourceSystem\StateObject</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\utilities\FileLoader.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\utilities\FileSystem.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\utilities\Timer.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\AdvancedGraphics_hw\forward\src\utilities\CMakeLists.txt">
+      <Filter>Utilities</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="RenderSystem\Pipeline\Stages\FixedStages\InputAssembler">
+      <UniqueIdentifier>{0651531C-7A47-38EE-AFC5-3B1D2F7570C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages\FixedStages\Rasterizer">
+      <UniqueIdentifier>{EA33BBFA-4932-302F-9C72-8F4DCD87E3B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages\FixedStages\StreamOutput">
+      <UniqueIdentifier>{AEBF7B1F-9D88-31D2-97A9-C60ECEAF2733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages\FixedStages\OutputMerger">
+      <UniqueIdentifier>{8F0EDE36-86DB-357A-8137-C80ABF42443A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\DXGI">
+      <UniqueIdentifier>{4A3D1C88-70EC-3A8D-A1B4-94D930D697F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline">
+      <UniqueIdentifier>{6AC8068A-AB2C-3EA6-8502-5E96F37ECEA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\ResourceSystem">
+      <UniqueIdentifier>{61109EB9-9975-353C-BEB3-38B482C1BD86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem">
+      <UniqueIdentifier>{007D7CBB-2FFF-3468-AFD1-E4EFA4252214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{5E260ABE-60CA-3933-B2DB-BD0CC7F78621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{D5F1DEED-05A3-32DD-AB03-7CB354F2F457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{6AC35A94-B70F-39EC-BB8D-D97BC1A53081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{B18E2E91-E75A-3981-ABBE-5D33E4544B8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Intersection">
+      <UniqueIdentifier>{D3066D57-DE77-3B08-8CC1-2B21FA13506E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{D9D198EF-46F0-36BA-94DB-38BABFE0C135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages\FixedStages">
+      <UniqueIdentifier>{9C39981E-B45E-3802-AC61-8C3C963F8045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages\ProgrammableStages">
+      <UniqueIdentifier>{B3A1381F-4B3E-320A-88D8-36F6786FAA41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages">
+      <UniqueIdentifier>{3951F478-0A0D-335B-8B54-5DCADCB449FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Executors">
+      <UniqueIdentifier>{9C094EE3-AFCE-37EB-A823-90DBFCC1D741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages\ProgrammableStages\States">
+      <UniqueIdentifier>{8E6D4D52-DCE0-3FFB-ADB0-2ECF28C10BC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderProgram">
+      <UniqueIdentifier>{8213C156-9E84-3BD4-83CA-53491EC3FCAB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\Pipeline\Stages\ProgrammableStages\ShaderStage">
+      <UniqueIdentifier>{8585E707-A374-3BA9-939E-4B537DBA5EA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\ResourceSystem\Buffer">
+      <UniqueIdentifier>{E059804D-6BEA-380F-A0EB-417359F46527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\ResourceSystem\Texture">
+      <UniqueIdentifier>{69DE77D1-B523-3FB3-B211-425647A44A50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\ResourceSystem\ResourceView">
+      <UniqueIdentifier>{41E5B236-0EED-3B31-8DAB-F2B63F2CA134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderSystem\ResourceSystem\StateObject">
+      <UniqueIdentifier>{8014B59E-86A9-368A-85E5-E8C969B31A03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

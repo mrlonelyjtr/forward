@@ -1,0 +1,201 @@
+﻿Build started 12/9/2015 3:06:08 PM.
+Project "C:\AdvancedGraphics_hw\forward\build\windows\forward.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\AdvancedGraphics_hw\boost_1_59_0 /IC:\AdvancedGraphics_hw\forward\src\..\libs /IC:\AdvancedGraphics_hw\forward\src\include /IC:\AdvancedGraphics_hw\forward\src\core /IC:\AdvancedGraphics_hw\forward\src\windows /IC:\AdvancedGraphics_hw\forward\src\windows\dx11 /IC:\AdvancedGraphics_hw\forward\src\math /IC:\AdvancedGraphics_hw\forward\src\intersection /IC:\AdvancedGraphics_hw\forward\src\geometry /IC:\AdvancedGraphics_hw\forward\src\utilities /Zi /nologo /W4 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"forward.dir\Debug\\" /Fd"forward.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\AdvancedGraphics_hw\forward\src\core\Types.cpp C:\AdvancedGraphics_hw\forward\src\geometry\Box3f.cpp C:\AdvancedGraphics_hw\forward\src\geometry\CompositeShape.cpp C:\AdvancedGraphics_hw\forward\src\geometry\Cone3f.cpp C:\AdvancedGraphics_hw\forward\src\geometry\Frustum3f.cpp C:\AdvancedGraphics_hw\forward\src\geometry\LineIndices.cpp C:\AdvancedGraphics_hw\forward\src\geometry\Plane3f.cpp C:\AdvancedGraphics_hw\forward\src\geometry\PointIndices.cpp C:\AdvancedGraphics_hw\forward\src\geometry\Ray3f.cpp C:\AdvancedGraphics_hw\forward\src\geometry\Shape3D.cpp C:\AdvancedGraphics_hw\forward\src\geometry\Sphere3f.cpp C:\AdvancedGraphics_hw\forward\src\geometry\Triangle3f.cpp C:\AdvancedGraphics_hw\forward\src\geometry\TriangleIndices.cpp C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fBox3f.cpp C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fSphere3f.cpp C:\AdvancedGraphics_hw\forward\src\math\Matrix3f.cpp C:\AdvancedGraphics_hw\forward\src\math\Matrix4f.cpp C:\AdvancedGraphics_hw\forward\src\math\Vector2f.cpp C:\AdvancedGraphics_hw\forward\src\math\Vector3f.cpp C:\AdvancedGraphics_hw\forward\src\math\Vector4f.cpp C:\AdvancedGraphics_hw\forward\src\utilities\FileLoader.cpp C:\AdvancedGraphics_hw\forward\src\utilities\FileSystem.cpp C:\AdvancedGraphics_hw\forward\src\utilities\Timer.cpp C:\AdvancedGraphics_hw\forward\src\windows\DXGIAdapter.cpp C:\AdvancedGraphics_hw\forward\src\windows\DXGIOutput.cpp C:\AdvancedGraphics_hw\forward\src\windows\Log.cpp C:\AdvancedGraphics_hw\forward\src\windows\d3dUtil.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ApplicationDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\BlendStateConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ByteAddressBufferDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ConstantBufferDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilStateConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndexBufferDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndirectArgsBufferDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStateDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageStateDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineExecutorDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineManagerDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageStateDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStateConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceProxyDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\SamplerStateConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderFactoryDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageStateDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageStateDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\StructuredBufferDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewConfigDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexBufferDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexElementDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderStageDX11.cpp C:\AdvancedGraphics_hw\forward\src\windows\dx11\ViewPortDX11.cpp
+  Types.cpp
+  Box3f.cpp
+  CompositeShape.cpp
+  Cone3f.cpp
+  Frustum3f.cpp
+  LineIndices.cpp
+  Plane3f.cpp
+  PointIndices.cpp
+  Ray3f.cpp
+  Shape3D.cpp
+  Sphere3f.cpp
+  Triangle3f.cpp
+  TriangleIndices.cpp
+  IntrRay3fBox3f.cpp
+  IntrRay3fSphere3f.cpp
+  Matrix3f.cpp
+  Matrix4f.cpp
+  Vector2f.cpp
+  Vector3f.cpp
+  Vector4f.cpp
+  Generating Code...
+  Compiling...
+  FileLoader.cpp
+  FileSystem.cpp
+  Timer.cpp
+  DXGIAdapter.cpp
+  DXGIOutput.cpp
+  Log.cpp
+  d3dUtil.cpp
+  ApplicationDX11.cpp
+  BlendStateConfigDX11.cpp
+  BufferConfigDX11.cpp
+  BufferDX11.cpp
+  ByteAddressBufferDX11.cpp
+  ComputeShaderDX11.cpp
+  ComputeShaderStageDX11.cpp
+  ConstantBufferDX11.cpp
+  DepthStencilStateConfigDX11.cpp
+  DepthStencilViewConfigDX11.cpp
+  DepthStencilViewDX11.cpp
+  DomainShaderDX11.cpp
+  DomainShaderStageDX11.cpp
+  Generating Code...
+  Compiling...
+  GeometryDX11.cpp
+  GeometryShaderDX11.cpp
+  GeometryShaderStageDX11.cpp
+  HullShaderDX11.cpp
+  HullShaderStageDX11.cpp
+  IndexBufferDX11.cpp
+  IndirectArgsBufferDX11.cpp
+  InputAssemblerStageDX11.cpp
+  InputAssemblerStateDX11.cpp
+  OutputMergerStageDX11.cpp
+  OutputMergerStageStateDX11.cpp
+  PipelineExecutorDX11.cpp
+  PipelineManagerDX11.cpp
+  PixelShaderDX11.cpp
+  PixelShaderStageDX11.cpp
+  RasterizerStageDX11.cpp
+  RasterizerStageStateDX11.cpp
+  RasterizerStateConfigDX11.cpp
+  RenderTargetViewConfigDX11.cpp
+  RenderTargetViewDX11.cpp
+  Generating Code...
+  Compiling...
+  RendererDX11.cpp
+C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.cpp(1739): warning C4018: '<' : signed/unsigned mismatch
+C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.cpp(1747): warning C4018: '<' : signed/unsigned mismatch
+C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.cpp(1755): warning C4018: '<' : signed/unsigned mismatch
+C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.cpp(1763): warning C4018: '<' : signed/unsigned mismatch
+  ResourceDX11.cpp
+  ResourceProxyDX11.cpp
+  SamplerStateConfigDX11.cpp
+  ShaderDX11.cpp
+  ShaderFactoryDX11.cpp
+  ShaderResourceViewConfigDX11.cpp
+  ShaderResourceViewDX11.cpp
+  ShaderStageDX11.cpp
+  ShaderStageStateDX11.cpp
+  StreamOutputStageDX11.cpp
+  StreamOutputStageStateDX11.cpp
+  StructuredBufferDX11.cpp
+  SwapChainConfigDX11.cpp
+  SwapChainDX11.cpp
+  Texture1dConfigDX11.cpp
+  Texture1dDX11.cpp
+  Texture2dConfigDX11.cpp
+  Texture2dDX11.cpp
+  Texture3dConfigDX11.cpp
+  Generating Code...
+  Compiling...
+  Texture3dDX11.cpp
+  UnorderedAccessViewConfigDX11.cpp
+  UnorderedAccessViewDX11.cpp
+  VertexBufferDX11.cpp
+  VertexElementDX11.cpp
+  VertexShaderDX11.cpp
+  VertexShaderStageDX11.cpp
+  ViewPortDX11.cpp
+  Generating Code...
+Lib:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\AdvancedGraphics_hw\forward\build\windows\Debug\forward.lib" /NOLOGO  /machine:X86 forward.dir\Debug\Types.obj
+  forward.dir\Debug\ApplicationDX11.obj
+  forward.dir\Debug\RendererDX11.obj
+  forward.dir\Debug\d3dUtil.obj
+  forward.dir\Debug\Log.obj
+  forward.dir\Debug\DXGIAdapter.obj
+  forward.dir\Debug\DXGIOutput.obj
+  forward.dir\Debug\InputAssemblerStageDX11.obj
+  forward.dir\Debug\InputAssemblerStateDX11.obj
+  forward.dir\Debug\RasterizerStageDX11.obj
+  forward.dir\Debug\RasterizerStageStateDX11.obj
+  forward.dir\Debug\StreamOutputStageDX11.obj
+  forward.dir\Debug\StreamOutputStageStateDX11.obj
+  forward.dir\Debug\OutputMergerStageDX11.obj
+  forward.dir\Debug\OutputMergerStageStateDX11.obj
+  forward.dir\Debug\ShaderStageStateDX11.obj
+  forward.dir\Debug\ComputeShaderDX11.obj
+  forward.dir\Debug\DomainShaderDX11.obj
+  forward.dir\Debug\GeometryShaderDX11.obj
+  forward.dir\Debug\HullShaderDX11.obj
+  forward.dir\Debug\PixelShaderDX11.obj
+  forward.dir\Debug\ShaderDX11.obj
+  forward.dir\Debug\VertexShaderDX11.obj
+  forward.dir\Debug\ShaderFactoryDX11.obj
+  forward.dir\Debug\ComputeShaderStageDX11.obj
+  forward.dir\Debug\DomainShaderStageDX11.obj
+  forward.dir\Debug\GeometryShaderStageDX11.obj
+  forward.dir\Debug\HullShaderStageDX11.obj
+  forward.dir\Debug\PixelShaderStageDX11.obj
+  forward.dir\Debug\ShaderStageDX11.obj
+  forward.dir\Debug\VertexShaderStageDX11.obj
+  forward.dir\Debug\GeometryDX11.obj
+  forward.dir\Debug\PipelineExecutorDX11.obj
+  forward.dir\Debug\VertexElementDX11.obj
+  forward.dir\Debug\PipelineManagerDX11.obj
+  forward.dir\Debug\ResourceDX11.obj
+  forward.dir\Debug\ResourceProxyDX11.obj
+  forward.dir\Debug\BufferConfigDX11.obj
+  forward.dir\Debug\BufferDX11.obj
+  forward.dir\Debug\ByteAddressBufferDX11.obj
+  forward.dir\Debug\ConstantBufferDX11.obj
+  forward.dir\Debug\IndexBufferDX11.obj
+  forward.dir\Debug\IndirectArgsBufferDX11.obj
+  forward.dir\Debug\StructuredBufferDX11.obj
+  forward.dir\Debug\VertexBufferDX11.obj
+  forward.dir\Debug\Texture1dConfigDX11.obj
+  forward.dir\Debug\Texture1dDX11.obj
+  forward.dir\Debug\Texture2dConfigDX11.obj
+  forward.dir\Debug\Texture2dDX11.obj
+  forward.dir\Debug\Texture3dConfigDX11.obj
+  forward.dir\Debug\Texture3dDX11.obj
+  forward.dir\Debug\SwapChainConfigDX11.obj
+  forward.dir\Debug\SwapChainDX11.obj
+  forward.dir\Debug\DepthStencilViewConfigDX11.obj
+  forward.dir\Debug\DepthStencilViewDX11.obj
+  forward.dir\Debug\RenderTargetViewConfigDX11.obj
+  forward.dir\Debug\RenderTargetViewDX11.obj
+  forward.dir\Debug\ShaderResourceViewConfigDX11.obj
+  forward.dir\Debug\ShaderResourceViewDX11.obj
+  forward.dir\Debug\UnorderedAccessViewConfigDX11.obj
+  forward.dir\Debug\UnorderedAccessViewDX11.obj
+  forward.dir\Debug\BlendStateConfigDX11.obj
+  forward.dir\Debug\DepthStencilStateConfigDX11.obj
+  forward.dir\Debug\RasterizerStateConfigDX11.obj
+  forward.dir\Debug\SamplerStateConfigDX11.obj
+  forward.dir\Debug\ViewPortDX11.obj
+  forward.dir\Debug\Matrix3f.obj
+  forward.dir\Debug\Matrix4f.obj
+  forward.dir\Debug\Vector2f.obj
+  forward.dir\Debug\Vector3f.obj
+  forward.dir\Debug\Vector4f.obj
+  forward.dir\Debug\Box3f.obj
+  forward.dir\Debug\CompositeShape.obj
+  forward.dir\Debug\Cone3f.obj
+  forward.dir\Debug\Frustum3f.obj
+  forward.dir\Debug\LineIndices.obj
+  forward.dir\Debug\Plane3f.obj
+  forward.dir\Debug\PointIndices.obj
+  forward.dir\Debug\Ray3f.obj
+  forward.dir\Debug\Shape3D.obj
+  forward.dir\Debug\Sphere3f.obj
+  forward.dir\Debug\Triangle3f.obj
+  forward.dir\Debug\TriangleIndices.obj
+  forward.dir\Debug\Intersector.obj
+  forward.dir\Debug\IntrRay3fBox3f.obj
+  forward.dir\Debug\IntrRay3fSphere3f.obj
+  forward.dir\Debug\FileLoader.obj
+  forward.dir\Debug\FileSystem.obj
+  forward.dir\Debug\Timer.obj
+  forward.vcxproj -> C:\AdvancedGraphics_hw\forward\build\windows\Debug\forward.lib
+Done Building Project "C:\AdvancedGraphics_hw\forward\build\windows\forward.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:33.93

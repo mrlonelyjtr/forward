@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{93114C71-7989-3EAC-97A3-B370EDAA7536}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>forward</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\AdvancedGraphics_hw\forward\build\windows\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">forward.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">forward</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\AdvancedGraphics_hw\forward\build\windows\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">forward.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">forward</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\AdvancedGraphics_hw\forward\build\windows\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">forward.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">forward</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\AdvancedGraphics_hw\forward\build\windows\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">forward.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">forward</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/AdvancedGraphics_hw/forward/src/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\bin\cmake.exe -HC:/AdvancedGraphics_hw/forward/src -BC:/AdvancedGraphics_hw/forward/build --check-stamp-file C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/AdvancedGraphics_hw/forward/src/windows/CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/AdvancedGraphics_hw/forward/src/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\bin\cmake.exe -HC:/AdvancedGraphics_hw/forward/src -BC:/AdvancedGraphics_hw/forward/build --check-stamp-file C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/AdvancedGraphics_hw/forward/src/windows/CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/AdvancedGraphics_hw/forward/src/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\bin\cmake.exe -HC:/AdvancedGraphics_hw/forward/src -BC:/AdvancedGraphics_hw/forward/build --check-stamp-file C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/AdvancedGraphics_hw/forward/src/windows/CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/AdvancedGraphics_hw/forward/src/windows/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\bin\cmake.exe -HC:/AdvancedGraphics_hw/forward/src -BC:/AdvancedGraphics_hw/forward/build --check-stamp-file C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/AdvancedGraphics_hw/forward/src/windows/CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ApplicationDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\d3dUtil.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\Log.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\Singleton.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\TStateArrayMonitor.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\TStateMonitor.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\TStateArrayMonitor.inl" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\include\TStateMonitor.inl" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\core\PCH.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\core\Types.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Matrix3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Matrix4f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Quaternion.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Vector2f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Vector3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Vector4f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\math\Quaternion.inl" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Box3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\CompositeShape.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Cone3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Frustum3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\LineIndices.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Plane3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\PointIndices.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Ray3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Shape3D.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Sphere3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\Triangle3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\geometry\TriangleIndices.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\intersection\Intersector.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fBox3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fSphere3f.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\DXGIAdapter.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\DXGIOutput.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStateDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageStateDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageStateDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageStateDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageStateDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderFactoryDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderStageDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineExecutorDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexElementDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineManagerDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceProxyDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ByteAddressBufferDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ConstantBufferDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndexBufferDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndirectArgsBufferDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StructuredBufferDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexBufferDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BlendStateConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilStateConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStateConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SamplerStateConfigDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ViewPortDX11.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\utilities\FileLoader.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\utilities\FileSystem.h" />
+    <ClInclude Include="C:\AdvancedGraphics_hw\forward\src\utilities\Timer.h" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\core\Types.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ApplicationDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RendererDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\d3dUtil.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\Log.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\DXGIAdapter.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\DXGIOutput.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\InputAssemblerStateDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStageStateDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StreamOutputStageStateDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\OutputMergerStageStateDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageStateDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderFactoryDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ComputeShaderStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DomainShaderStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryShaderStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\HullShaderStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PixelShaderStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexShaderStageDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\GeometryDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineExecutorDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexElementDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\PipelineManagerDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ResourceProxyDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BufferDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ByteAddressBufferDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ConstantBufferDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndexBufferDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\IndirectArgsBufferDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\StructuredBufferDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\VertexBufferDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture1dDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture2dDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\Texture3dDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SwapChainDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilViewDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RenderTargetViewDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ShaderResourceViewDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\UnorderedAccessViewDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\BlendStateConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\DepthStencilStateConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\RasterizerStateConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\SamplerStateConfigDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\windows\dx11\ViewPortDX11.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Matrix3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Matrix4f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Vector2f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Vector3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\math\Vector4f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Box3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\CompositeShape.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Cone3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Frustum3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\LineIndices.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Plane3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\PointIndices.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Ray3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Shape3D.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Sphere3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\Triangle3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\geometry\TriangleIndices.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\intersection\Intersector.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fBox3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\intersection\IntrRay3fSphere3f.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\utilities\FileLoader.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\utilities\FileSystem.cpp" />
+    <ClCompile Include="C:\AdvancedGraphics_hw\forward\src\utilities\Timer.cpp" />
+    <None Include="C:\AdvancedGraphics_hw\forward\src\utilities\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/AdvancedGraphics_hw/forward/build/ZERO_CHECK.vcxproj">
+      <Project>DDBD5261-1DB6-3B7E-9E0D-728817C5DF03</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

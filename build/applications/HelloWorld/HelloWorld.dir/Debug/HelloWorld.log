@@ -1,0 +1,16 @@
+﻿Build started 2015/12/8 15:48:22.
+     1>Project "C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\HelloWorld.vcxproj" on node 3 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/AdvancedGraphics_hw/forward/src/applications/HelloWorld/CMakeLists.txt
+         CMake does not need to re-run because C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\vs\VC\bin\CL.exe /c /IC:\AdvancedGraphics_hw\boost_1_59_0 /IC:\AdvancedGraphics_hw\forward\src\..\libs /IC:\AdvancedGraphics_hw\forward\src\include /IC:\AdvancedGraphics_hw\forward\src\core /IC:\AdvancedGraphics_hw\forward\src\windows /IC:\AdvancedGraphics_hw\forward\src\windows\dx11 /IC:\AdvancedGraphics_hw\forward\src\math /IC:\AdvancedGraphics_hw\forward\src\intersection /IC:\AdvancedGraphics_hw\forward\src\geometry /IC:\AdvancedGraphics_hw\forward\src\utilities /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"HelloWorld.dir\Debug\\" /Fd"HelloWorld.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\AdvancedGraphics_hw\forward\src\applications\HelloWorld\HelloWorldApp.cpp
+         HelloWorldApp.cpp
+       Link:
+         D:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\Debug\HelloWorld.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:/AdvancedGraphics_hw/boost_1_59_0/stage/lib /LIBPATH:C:/AdvancedGraphics_hw/boost_1_59_0/stage/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib d3d11.lib D3DCompiler.lib dxgi.lib ..\..\windows\Debug\forward.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/AdvancedGraphics_hw/forward/build/applications/HelloWorld/Debug/HelloWorld.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AdvancedGraphics_hw/forward/build/applications/HelloWorld/Debug/HelloWorld.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug HelloWorld.dir\Debug\HelloWorldApp.obj
+         HelloWorld.vcxproj -> C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\Debug\HelloWorld.exe
+     1>Done Building Project "C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\HelloWorld.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84

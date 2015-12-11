@@ -1,0 +1,21 @@
+﻿Build started 12/9/2015 10:41:57 PM.
+Project "C:\AdvancedGraphics_hw\forward\build\applications\ShadowMapDemo\ShadowMapDemo.vcxproj" on node 2 (Build target(s)).
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\AdvancedGraphics_hw\boost_1_59_0 /IC:\AdvancedGraphics_hw\forward\src\..\libs /IC:\AdvancedGraphics_hw\forward\src\include /IC:\AdvancedGraphics_hw\forward\src\core /IC:\AdvancedGraphics_hw\forward\src\windows /IC:\AdvancedGraphics_hw\forward\src\windows\dx11 /IC:\AdvancedGraphics_hw\forward\src\math /IC:\AdvancedGraphics_hw\forward\src\intersection /IC:\AdvancedGraphics_hw\forward\src\geometry /IC:\AdvancedGraphics_hw\forward\src\utilities /Zi /nologo /W4 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ShadowMapDemo.dir\Debug\\" /Fd"ShadowMapDemo.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\AdvancedGraphics_hw\forward\src\applications\ShadowMapDemo\ShadowMapApp.cpp
+  ShadowMapApp.cpp
+c:\advancedgraphics_hw\forward\src\applications\shadowmapdemo\CascadedShadowMapMatrixSetCaculator.h(59): warning C4512: 'forward::CascadedShadowMapMatrixSetCaculator' : assignment operator could not be generated
+          c:\advancedgraphics_hw\forward\src\applications\shadowmapdemo\CascadedShadowMapMatrixSetCaculator.h(9) : see declaration of 'forward::CascadedShadowMapMatrixSetCaculator'
+c:\advancedgraphics_hw\forward\src\applications\shadowmapdemo\LightSpacePerspectiveShadowMapMatrixCaculator.h(47): warning C4512: 'forward::LightSpacePerspectiveShadowMapMatrixCaculator' : assignment operator could not be generated
+          c:\advancedgraphics_hw\forward\src\applications\shadowmapdemo\LightSpacePerspectiveShadowMapMatrixCaculator.h(10) : see declaration of 'forward::LightSpacePerspectiveShadowMapMatrixCaculator'
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\AdvancedGraphics_hw\forward\build\applications\ShadowMapDemo\Debug\ShadowMapDemo.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:/AdvancedGraphics_hw/boost_1_59_0/stage/lib /LIBPATH:C:/AdvancedGraphics_hw/boost_1_59_0/stage/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib d3d11.lib D3DCompiler.lib dxgi.lib ..\..\windows\Debug\forward.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/AdvancedGraphics_hw/forward/build/applications/ShadowMapDemo/Debug/ShadowMapDemo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AdvancedGraphics_hw/forward/build/applications/ShadowMapDemo/Debug/ShadowMapDemo.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug ShadowMapDemo.dir\Debug\Camera.obj
+  ShadowMapDemo.dir\Debug\CascadedShadowMapMatrixSetCaculator.obj
+  ShadowMapDemo.dir\Debug\LightSpacePerspectiveShadowMapMatrixCaculator.obj
+  ShadowMapDemo.dir\Debug\ShadowMapApp.obj
+  ShadowMapDemo.dir\Debug\source.obj
+  ShadowMapDemo.vcxproj -> C:\AdvancedGraphics_hw\forward\build\applications\ShadowMapDemo\Debug\ShadowMapDemo.exe
+Done Building Project "C:\AdvancedGraphics_hw\forward\build\applications\ShadowMapDemo\ShadowMapDemo.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.53

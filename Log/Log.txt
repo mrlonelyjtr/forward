@@ -1,0 +1,5 @@
+Log file opened.
+Microsoft Basic Render Driver
+Microsoft Basic Render Driver
+Device supports compute shaders plus raw and structured buffers via shader 4.x
+Log file closed.

@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{DDBD5261-1DB6-3B7E-9E0D-728817C5DF03}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\AdvancedGraphics_hw\boost_1_59_0;C:\AdvancedGraphics_hw\forward\src\..\libs;C:\AdvancedGraphics_hw\forward\src\include;C:\AdvancedGraphics_hw\forward\src\core;C:\AdvancedGraphics_hw\forward\src\windows;C:\AdvancedGraphics_hw\forward\src\windows\dx11;C:\AdvancedGraphics_hw\forward\src\math;C:\AdvancedGraphics_hw\forward\src\intersection;C:\AdvancedGraphics_hw\forward\src\geometry;C:\AdvancedGraphics_hw\forward\src\utilities;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\AdvancedGraphics_hw\forward\build\CMakeFiles\7f7c2300566587c43b2bdb3d21c28bd1\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\bin\cmake.exe -HC:/AdvancedGraphics_hw/forward/src -BC:/AdvancedGraphics_hw/forward/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/AdvancedGraphics_hw/forward/build/CMakeFiles/7f7c2300566587c43b2bdb3d21c28bd1/generate.stamp.rule;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\FindBoost.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\AdvancedGraphics_hw\forward\src\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\BasicGeometryApp\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\HelloWorld\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\MSAA\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\ShadowMapDemo\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\core\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\geometry\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\include\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\intersection\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\math\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\utilities\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\AdvancedGraphics_hw\forward\build\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\include\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\core\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\math\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\geometry\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\intersection\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\utilities\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\BasicGeometryApp\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\MSAA\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\ShadowMapDemo\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\bin\cmake.exe -HC:/AdvancedGraphics_hw/forward/src -BC:/AdvancedGraphics_hw/forward/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/AdvancedGraphics_hw/forward/build/CMakeFiles/7f7c2300566587c43b2bdb3d21c28bd1/generate.stamp.rule;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\FindBoost.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\AdvancedGraphics_hw\forward\src\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\BasicGeometryApp\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\HelloWorld\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\MSAA\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\ShadowMapDemo\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\core\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\geometry\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\include\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\intersection\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\math\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\utilities\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\AdvancedGraphics_hw\forward\build\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\include\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\core\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\math\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\geometry\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\intersection\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\utilities\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\BasicGeometryApp\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\MSAA\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\ShadowMapDemo\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\bin\cmake.exe -HC:/AdvancedGraphics_hw/forward/src -BC:/AdvancedGraphics_hw/forward/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/AdvancedGraphics_hw/forward/build/CMakeFiles/7f7c2300566587c43b2bdb3d21c28bd1/generate.stamp.rule;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\FindBoost.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\AdvancedGraphics_hw\forward\src\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\BasicGeometryApp\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\HelloWorld\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\MSAA\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\ShadowMapDemo\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\core\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\geometry\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\include\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\intersection\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\math\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\utilities\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\AdvancedGraphics_hw\forward\build\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\include\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\core\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\math\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\geometry\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\intersection\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\utilities\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\BasicGeometryApp\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\MSAA\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\ShadowMapDemo\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\bin\cmake.exe -HC:/AdvancedGraphics_hw/forward/src -BC:/AdvancedGraphics_hw/forward/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/AdvancedGraphics_hw/forward/build/CMakeFiles/7f7c2300566587c43b2bdb3d21c28bd1/generate.stamp.rule;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCXXInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeCommonLanguageInclude.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeGenericSystem.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeRCInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInformation.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\CMakeSystemSpecificInitialize.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Compiler\MSVC-CXX.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\FindBoost.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-C.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC-CXX.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows-MSVC.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\Windows.cmake;C:\AdvancedGraphics_hw\cmake-3.4.1-win32-x86\share\cmake-3.4\Modules\Platform\WindowsPaths.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeCCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeCXXCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeRCCompiler.cmake;C:\AdvancedGraphics_hw\forward\build\CMakeFiles\3.4.1\CMakeSystem.cmake;C:\AdvancedGraphics_hw\forward\src\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\BasicGeometryApp\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\HelloWorld\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\MSAA\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\applications\ShadowMapDemo\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\core\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\geometry\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\include\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\intersection\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\math\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\utilities\CMakeLists.txt;C:\AdvancedGraphics_hw\forward\src\windows\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\AdvancedGraphics_hw\forward\build\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\include\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\core\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\math\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\geometry\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\intersection\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\utilities\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\HelloWorld\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\BasicGeometryApp\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\MSAA\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\applications\ShadowMapDemo\CMakeFiles\generate.stamp;C:\AdvancedGraphics_hw\forward\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

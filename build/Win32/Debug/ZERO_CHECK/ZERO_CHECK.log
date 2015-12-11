@@ -1,0 +1,22 @@
+﻿Build started 2015/12/8 15:47:34.
+     1>Project "C:\AdvancedGraphics_hw\forward\build\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/include/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/core/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/math/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/geometry/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/intersection/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/utilities/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/applications/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/applications/HelloWorld/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/applications/BasicGeometryApp/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/applications/MSAA/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/applications/ShadowMapDemo/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/AdvancedGraphics_hw/forward/build/windows/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\AdvancedGraphics_hw\forward\build\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

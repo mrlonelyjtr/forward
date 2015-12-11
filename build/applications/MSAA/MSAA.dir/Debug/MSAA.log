@@ -1,0 +1,16 @@
+﻿Build started 2015/12/8 15:48:23.
+     1>Project "C:\AdvancedGraphics_hw\forward\build\applications\MSAA\MSAA.vcxproj" on node 4 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/AdvancedGraphics_hw/forward/src/applications/MSAA/CMakeLists.txt
+         CMake does not need to re-run because C:\AdvancedGraphics_hw\forward\build\applications\MSAA\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         D:\vs\VC\bin\CL.exe /c /IC:\AdvancedGraphics_hw\boost_1_59_0 /IC:\AdvancedGraphics_hw\forward\src\..\libs /IC:\AdvancedGraphics_hw\forward\src\include /IC:\AdvancedGraphics_hw\forward\src\core /IC:\AdvancedGraphics_hw\forward\src\windows /IC:\AdvancedGraphics_hw\forward\src\windows\dx11 /IC:\AdvancedGraphics_hw\forward\src\math /IC:\AdvancedGraphics_hw\forward\src\intersection /IC:\AdvancedGraphics_hw\forward\src\geometry /IC:\AdvancedGraphics_hw\forward\src\utilities /Zi /nologo /W4 /WX /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D UNICODE /D _UNICODE /D "CMAKE_INTDIR=\"Debug\"" /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"MSAA.dir\Debug\\" /Fd"MSAA.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt C:\AdvancedGraphics_hw\forward\src\applications\MSAA\source.cpp
+         source.cpp
+       Link:
+         D:\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\AdvancedGraphics_hw\forward\build\applications\MSAA\Debug\MSAA.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:/AdvancedGraphics_hw/boost_1_59_0/stage/lib /LIBPATH:C:/AdvancedGraphics_hw/boost_1_59_0/stage/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib d3d11.lib D3DCompiler.lib dxgi.lib ..\..\windows\Debug\forward.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/AdvancedGraphics_hw/forward/build/applications/MSAA/Debug/MSAA.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AdvancedGraphics_hw/forward/build/applications/MSAA/Debug/MSAA.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug MSAA.dir\Debug\source.obj
+         MSAA.vcxproj -> C:\AdvancedGraphics_hw\forward\build\applications\MSAA\Debug\MSAA.exe
+     1>Done Building Project "C:\AdvancedGraphics_hw\forward\build\applications\MSAA\MSAA.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.82

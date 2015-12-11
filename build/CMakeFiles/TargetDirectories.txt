@@ -1,0 +1,7 @@
+C:/AdvancedGraphics_hw/forward/build/applications/BasicGeometryApp/CMakeFiles/BasicGeometryApp.dir
+C:/AdvancedGraphics_hw/forward/build/windows/CMakeFiles/forward.dir
+C:/AdvancedGraphics_hw/forward/build/applications/HelloWorld/CMakeFiles/HelloWorld.dir
+C:/AdvancedGraphics_hw/forward/build/applications/ShadowMapDemo/CMakeFiles/ShadowMapDemo.dir
+C:/AdvancedGraphics_hw/forward/build/CMakeFiles/ALL_BUILD.dir
+C:/AdvancedGraphics_hw/forward/build/applications/MSAA/CMakeFiles/MSAA.dir
+C:/AdvancedGraphics_hw/forward/build/CMakeFiles/ZERO_CHECK.dir
